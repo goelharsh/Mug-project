@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.wrapper{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y:hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.whole-card{
+    height: 400px;
+    width: 700px;
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+    padding-right:2rem ;
+    border-radius: 2rem;
+}
+
+
+.mug-image{
+    height: 100%;
+    width: 300px;
+    margin: 0 2rem 0 0;
+    border-radius: 2rem 0 0 2rem;
+}
+
+.text{
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top:1.3rem ;
+}
+
+.product-name{
+    padding: 2px;
+    width: 60%;
+    font-size: 2rem;
+    line-height: 1;
+    font-style: bold;
+    margin: 0.6em 0 0.7em 0;
+}
+
+.description{
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.new{
+    font-size: 2rem;
+    color: rgb(75, 205, 75);
+    line-height: 1;
+    margin: 0.6em 0 0.7em 0;
+    font-weight: 800;
+}
+
+.old{
+    margin: bottom;
+    position: relative;
+}
+
+.btn{
+    background-color: rgb(75, 205, 75);
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    border-radius: 0.4rem;
+    width: 100%;
+    margin: 2em 0 1em 0 ;
+    padding: 1em 0;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(75, 250, 90);
+}
+
+
+
+
+
